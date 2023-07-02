@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body, html{
+    font-family: "Popins", sans-serif;
+}
+#header{
+    width: 100%;
+    background: var(--primary);
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-colapse{
+    width: auto;
+}
+img{
+    width: 200px;
+}
+#header .nav-link{
+    color: #FFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: solid 3px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 3px var(--secondary);
+    color: var(--secondary);
+}
+.checklist{
+    width: 60px;
+}
+.dropdown-menu{
+    background: var(--primary);
+}
+#header .dropdown-item{
+    color: #FFFF;
+}
+#header .dropdown-item:hover{
+    color: var(--primary);
+}
+button{
+    border: var(--secondary);
+}
+.img{
+    width:20px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+iframe{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    display: none;
+    margin-top: 2rem;
+    width: 98%;
+    height: 500px;
+}
+#description{
+    display: block;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #CCCC;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 20px;
+  }

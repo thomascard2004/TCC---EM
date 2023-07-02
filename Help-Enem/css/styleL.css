@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+}
+#iconA{
+    width:80px;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+}
+body{
+    background-color: #9013fe;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#content{
+    background-color: #fafafa;
+    width:500px;
+    height: 550px;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    margin-left: 6rem;
+    border-radius: 8px;
+    margin-top: 4%;
+    align-items: flex-end;
+}  
+.icon{
+    margin-left: 8rem;
+}
+#lbl{
+    margin-top: rem;
+}
+.link{
+    color: #9013fe;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.link:hover{
+    color:#c4c1e0;
+}
+h1{
+    margin-bottom: 2rem;
+}
+#alerta{
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 2rem;
+}
+#botao{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 8px;
+    border: none;
+    background-color: #9013fe;
+    color: #ffe9e3;
+    transition-duration: all 0.3s ease;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 18%;
+    margin-right: 15%;
+}
+#botao:hover{
+    background-color: #FFFF;
+    color: #9013fe;
+}
+.input{
+    margin-top: 9px;
+    margin-bottom: 15px;
+    background: transparent;
+}
+
+.input-field{
+    position: relative;
+}
+form .input-field:first-child{
+    margin-bottom: 1.5rem;
+}
+.input-field .underline::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    bottom: 5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.input-field .underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    bottom: 5px;
+    left: 0;
+    background: #9013fe;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+.input-field input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.input-field input ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+#password{
+    background-color: transparent;
+    cursor: pointer;
+}

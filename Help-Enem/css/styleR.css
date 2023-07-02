@@ -1,0 +1,120 @@
+/*style3*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+    border:0;
+}
+body{
+	background-color:#9013fe; 
+}
+
+#conteudo{
+	background-color:#ffff;
+	margin-top: 10%;
+	margin-left: 33%;
+	margin-right: 40%;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	width: 500px;
+	height: 350px;
+	position: fixed;
+
+}
+#content{
+    margin-left: 3rem;
+}
+.input{
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
+.input-field{
+    position: relative;
+}
+form .input-field:first-child{
+    margin-bottom: 1.5rem;
+}
+.input-field .underline::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    bottom: 1px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.input-field .underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    bottom: 1px;
+    left: 0;
+    background: #9013fe;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+.input-field input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.input-field input ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+h3{
+	margin-bottom: 4rem;
+	margin-left: 8rem;
+}
+#Alterar{
+	margin-top: 3rem;
+	padding-right:1rem;
+	padding-left: 1rem;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color:#9013fe;
+	margin-left: 10rem;
+	font-size: 16px;
+	border-radius: 5px;
+	color: white;
+    cursor: pointer;
+}
+#Alterar:hover{
+	background-color:#FFFF;
+    color: #9013fe;
+}
+#senha1, #senha2{
+	margin-top: 5px;
+	margin-bottom: 4px;
+    width: 90%;
+}
+#Alertar{
+	margin-top: 1rem;
+	font-size: 15px;
+	color: red;
+}
+#voltar{
+	padding-right:1rem;
+	padding-left: 1rem;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-bottom: 8rem;
+	background-color:#9013fe;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #FFFF;
+	cursor: pointer;
+}
+#voltar:hover{
+	background-color:#FFFF;
+	color: #9013fe; 
+}

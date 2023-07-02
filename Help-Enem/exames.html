@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="short icon" type="imagex/pngp" href="img/logo.ico">
+    <link href="css/styleExam.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/exames.js"></script>
+    <title>Redação</title>
+</head>
+
+<body>
+    <div id="content">
+        <p>Selecione a prova que deseja fazer: </p>
+        <form method="POST" action="php/exames.php">
+            <select name="exames">
+                <option value="1">ENEM 2018</option>
+                <option value="2">ENEM 2019</option>
+                <option value="3">ENEM 2020</option>
+            </select>
+            <p>Selecione a disciplina que deseja fazer questões: </p>
+            <select name="disciplina">
+                <option value="4">Matemática e suas Tecnologias</option>
+                <option value="3">Ciências da Natureza e suas Tecnologias</option>
+                <option value="2">Ciências Humanas e suas Tecnologias</option>
+                <option value="1">Linguagens, Códigos e suas Tecnologias</option>
+            </select><br>
+            <input id="button" type="submit" value="Buscar questões">
+            <br><br>
+        </form>
+    </div>
+</body>
+
+</html>

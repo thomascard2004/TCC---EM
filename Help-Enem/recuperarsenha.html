@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styleR.css">
+        <link rel="short icon" type="imagex/pngp" href="img/logo.ico">
+        <title> Atualizar senha</title>
+    </head>
+    <body>
+        <div id="conteudo">
+        <h3 id="titulo">Atualização de senha</h3>
+        <form method="POST" action="php/updatepass.php">
+            <div id="content">
+            <label>Digite sua nova senha</label><br>
+            <div class="input-field">
+            <input class="input" type="password" name="senha" id="senha1"><br>
+            <div class="underline"></div>
+            </div><br>
+            <label id="rec">Confirme sua senha</label><br>
+            <div class="input-field">
+            <input class="input" type="password" name="senha2" id="senha2"><br>
+            <div class="underline"></div>
+            </div>
+            <p id="Alertar"></p>
+            <input type="submit" id="Alterar" value="Alterar">
+            </div>
+        </form>
+        </div>
+    </body>
+    </html>

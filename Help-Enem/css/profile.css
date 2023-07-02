@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url(config.css);
+body {
+    background-color: #f9f9fa;
+    font-family: "Popins", sans-serif;
+}
+
+.padding {
+    padding: 3rem !important
+}
+
+.user-card-full {
+    overflow: hidden
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    box-shadow: 10px 10px 50px 0 rgba(69, 90, 100, 0.08);
+    border: none;
+    margin-bottom: 30px
+}
+
+.m-r-0 {
+    margin-right: 0px
+}
+
+.m-l-0 {
+    margin-left: 0px
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-green {
+    background-color: var(--primary);
+    color: #FFFF;
+    height: 150px;
+}
+
+.user-profile {
+    padding: 20px 0
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-25 {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px;
+    width: 70px;
+}
+
+h6 {
+    font-size: 14px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-muted {
+    color: #919aa3 !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.user-card-full .social-link li {
+    display: inline-block
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+#frm_update{
+    display: none;
+}
+.buttons{
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #9013fe;
+    color: #ffe9e3;
+    transition-duration: all 0.3s ease;
+    cursor: pointer;
+    width: 150px;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#buttonU{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #9013fe;
+    color: #ffe9e3;
+    transition-duration: all 0.3s ease;
+    cursor: pointer;
+    width: 110px;
+    text-transform: uppercase;
+}
+.buttons:hover, #buttonU:hover{
+    background-color: #FFFF;
+    color: #9013fe;
+}
+.input-field{
+    position: relative;
+}
+form .input-field:first-child{
+    margin-bottom: 1.5rem;
+}
+.input-field .underline::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    bottom: -2px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.input-field .underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    bottom: -2px;
+    left: 0;
+    background: #9013fe;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+.input-field input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.input-field input ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+input{
+    border: none;
+    margin-top: 1rem;
+    background: transparent;
+    width: 30%;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #CCCC;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 20px;
+  }
+#pass{
+    width: 50%;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('css/bootstrap.min.css');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+}
+
+#intro, #d1, #d2, #concl{
+    background-color: #9013fe;
+    color: #FFFF;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+#button{
+    cursor: pointer;
+}
+#next{
+    margin-left: 20rem;
+    cursor: pointer;
+}

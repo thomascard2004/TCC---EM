@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('bootstrap.min.css');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Popins", sans-serif;
+    box-sizing: border-box;
+    border:0;
+}
+body{
+	background-color:#9013fe; 
+}
+#conteudo{
+	background-color:#ffff;
+	margin-top: 8%;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-top: 20px;
+	padding-left: 2rem;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	width: 600px;
+	height: 400px;
+}
+#img{
+	width: 90px;
+	margin-left: 14rem;
+}
+#enviar{
+	padding-right:1rem;
+	padding-left: 1rem;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color:#9013fe;
+	margin-left: 70%;
+	font-size: 16px;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+}
+#verificar{
+	padding-right:1rem;
+	padding-left: 1rem;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color:#9013fe;
+	margin-left: 60%;
+	margin-top: 1rem;
+	font-size: 16px;
+	border-radius: 5px;
+	color: white;
+	cursor:pointer;
+}
+#email{
+	margin-top: 15px;
+	padding: 6px;
+	width: 95%;
+}
+#alt{
+	margin-top: 30px;
+	font-size: 17px;
+	margin-right: 6rem;
+}
+#rec{
+	font-size: 18px;
+}
+
+#enviar:hover, #verificar:hover{
+	background-color:#FFFF;
+	color: #9013fe;
+}
+
+#titulo{
+	margin-top: 2%;
+	margin-left: 5%;
+}
+#Alerta{
+	margin-top: 3%;
+	font-size: 15px;
+	color: grey;
+}
+.input{
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+.input-field{
+    position: relative;
+}
+form .input-field:first-child{
+    margin-bottom: 1.5rem;
+}
+.input-field .underline::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    bottom: 1px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.input-field .underline::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    bottom: 1px;
+    left: 0;
+    background: #9013fe;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+.input-field input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.input-field input ::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+#voltar{
+	padding-right:1rem;
+	padding-left: 1rem;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-bottom: 5rem;
+	background-color:#9013fe;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #FFFF;
+	cursor: pointer;
+}
+#voltar:hover{
+	background-color:#FFFF;
+	color: #9013fe; 
+}

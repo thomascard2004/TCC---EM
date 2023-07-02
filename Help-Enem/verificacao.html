@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="short icon" type="imagex/pngp" href="img/logo.ico">
+        <title>Verificação</title>
+        <script src="js/script.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/styleV.css">
+    </head>
+    <body>
+        <div id="container">
+        <h3>Verificação</h3><br>
+        <form method="POST" action="php/scriptV.php">
+                <label>Digite o código enviado</label><br><br>
+                <div class="input-field">
+                <input class="input" id="code" type="text" name="code">
+                <div class="underline"></div> 
+                </div><br>
+                <p id="alertC"></p>
+                <a href="esqueceuasenha.html"><input type="button" value="Voltar" id="button1"></a>
+                <input type="button" id="button2" value="Verificar" onclick="CodeVerification()">
+        </form>
+    </div>
+    </body>
+</html>

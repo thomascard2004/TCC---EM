@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="short icon" type="imagex/pngp" href="img/logo.ico">
+    <link rel="stylesheet" href="css/styleE.css">
+    <title> Esqueceu a Senha</title>
+</head>
+
+<body>
+    <div id="conteudo">
+        <img src="img/email.png" id="img" draggable="false">
+        <p id="alt">Digite seu email para alterar a senha</p>
+        <form method="POST" action="php/scriptE.php">
+            <div class="input-field">
+                <input class="input" id="email" type="email" name="email" placeholder="Digite seu email..."><br>
+                <div class="underline"></div>
+            </div>
+            <p id="Alerta"></p><br>
+            <input type="button" name="enviar" id="enviar" value="Enviar email" onclick="Verificar()">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
